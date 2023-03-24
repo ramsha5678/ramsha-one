@@ -1,0 +1,309 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    width: 100%;
+    height: 100%;
+} 
+.container{
+    width: 100%;
+    min-height: 100%;
+    background-color: rgb(0,0,0);
+    padding: 2vmax 3vmax;
+}
+
+nav{
+    width: 100%;
+    height: 10vh;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid white;
+}
+
+nav>h1{
+    font: 900 2.5vmax;
+    letter-spacing: 3px;
+    
+}
+
+nav >ul{
+    display: flex;
+    list-style-type: none;
+    font-weight: 200;
+    font: 200 1vmax;
+}
+
+nav>ul>li{
+    padding: 0 1vmax;
+}
+nav>span{
+    font: 200 1vmax;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav>span>i{
+    font-size: 2vmax;
+}
+
+
+
+.section1{
+    margin-top: 5vmax;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+}
+
+.s1-left,.s1-right{
+     width: 50%;
+     height: 100%;
+}
+
+
+.s1-left{
+    padding-right: 3vmax;
+
+}
+.s1-left h1{
+    font: 400 6.5vmax "Gilroy";
+    line-height: 7vmax;
+    color: white;
+    margin-bottom: 3vmax;
+}
+.s1-left img{
+    width: 5vmax;
+    height: 5vmax;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    border: 4px solid black;
+}
+
+.s1-left img:nth-child(2){
+    transform: translateX(-3vmax);
+}
+.s1-left img:nth-child(3){
+    transform: translateX(-6vmax);
+}
+
+.s1-left span{
+    display: inline-block;
+    transform: translateX(-7vmax);
+}
+
+.s1-box{
+    color: white;
+    font: 200 1vmax;
+    margin-top: 1vmax;
+    display: flex;
+    justify-content: space-between;
+}
+.s1-right{
+    padding: 0 3vmax;
+    background-color: blueviolet;
+    border-radius: 1vmax;
+    clip-path: polygon(83% 1%, 83% 11%, 100% 12%, 100% 70%, 100% 100%, 0 99%, 0% 70%, 0 0);
+    background-image: url(http://pngimagesfree.com/People/Girl/Girl-with-book-png-image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.circle{
+    position: absolute;
+    right: 8%;
+    top: 25%;
+    z-index: 10000;
+}
+
+.section2{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    margin-top: 7vmax;
+
+}
+
+.s2-left{
+    width: 25%;
+    height: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+
+
+}
+
+.s2-right{
+    width: 75%;
+    height: 100%;
+   display: flex;
+   justify-content: space-between; 
+}
+
+.circle span{
+    display: inline-block;
+    width: 1vmax;
+    height: 1vmax;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin-right: 0vmax;
+}
+
+.circle span:first-child{
+    background-color: white;
+}
+
+.s1r-title{
+    width: 100%;
+    margin-top: 1.5vmax;
+    font: 600 1vmax;
+}
+.s1r-input{
+    margin-bottom: 4vmax;
+    border-radius: 2vmax;
+    width: 100%;
+    height: 10%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vmax 0.5vmax 2vmax 3vmax;
+}
+
+.s1r-input i{
+    font-size: 3vmax;
+
+}
+.s1r-input p{
+    font: 600 1vmax;
+}
+
+
+.section2{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    margin-top: 7vmax;
+
+}
+
+.s2-left{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.s2l-play{
+    color: white;
+    display: flex;
+    align-items: center;
+
+}
+.s2l-play i{
+    font-size: 4vmax;
+}
+
+.s2l-play p{
+    margin-left: 1vmax;
+    font: 400 1vmax;
+}
+
+.s2l-buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.s2l-buttons button{
+    margin-bottom: 0.5vmax;
+    padding: 0.8vmax 2vmax;
+    border-radius: 2vmax;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+}
+.s2r-box{
+    height: 100%;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3vmax 2vmax 2vmax 2vmax;
+    clip-path: polygon(13% 0, 100% 0, 100% 60%, 100% 99%, 0 100%, 0 7%, 13% 7%);
+
+
+
+    border-radius: 1vmax;
+}
+
+.s2r-box1{
+    background-color: chartreuse;
+}
+.s2r-box2{
+    background-color: pink;
+
+}
+
+.s2r-box3{
+    background-color: brown;
+}
+.s2r-box1 p{
+    font: 600 1vmax;
+}
+
+.s2r-box1 i{
+    font-size: 5vmax;
+}
+
+.s2r-header{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.s2r-header.circles{
+    position: initial;
+}
+.s2r-header.circles span{
+    width: 0.5vmax;
+    height: 0.5vmax;
+    border-color: black;
+}
+.s2r-header.circles span:first-child{
+    background-color: black;
+    margin: 0;
+
+}
+
+.s2r-header i{
+    font-size: 3vmax;
+}
+
+.s2r-box2 p{
+    font: 600 1vmax;
+}
+
+.s2r-box3p{
+    font: 600 1vmax;
+
+}
+
+.s2r-box3 h1{
+    font: 600 4vmax;
+    word-spacing: -1vmax;
+}
